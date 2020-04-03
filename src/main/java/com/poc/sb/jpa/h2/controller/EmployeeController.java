@@ -22,10 +22,15 @@ import com.poc.sb.jpa.h2.model.Employee;
 import com.poc.sb.jpa.h2.repository.EmployeeRepository;
 
 @RestController
-@RequestMapping("/samplepoc/api/v1")
+@RequestMapping("/api/v1")
 public class EmployeeController {
 	@Autowired
 	private EmployeeRepository employeeRepository;
+	
+	@GetMapping("/welcome")
+	public String hi() {
+		return "Welcome.....";
+	}
 
 	@GetMapping("/getAllEmployees")
 	public List<Employee> getAllEmployees() {
