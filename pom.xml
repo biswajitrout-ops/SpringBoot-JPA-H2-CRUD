@@ -7,7 +7,7 @@
 	<groupId>com.poc.sb</groupId>
 	<artifactId>SB-JPA-H2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>SB-JPA-H2</name>
 	<description>Sample POC</description>
